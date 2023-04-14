@@ -1,0 +1,113 @@
+1. Heat Level tweaks
+- Heat levels now take longer to increase compared to the original game, meaning respones are more stretched out and the flow to heavier type units is more gradual.
+
+- Heat levels also get gradually more difficult. As you progress through a certain heat level, you will notice spawns getting tougher with certain units or weaponary
+  only appearing on law enforcement personell during later stages of a specific heat level.
+
+- The time between police spawns has been tweaked a bit, giving you a bit more breathing room during lower heat levels. Also the amount of spawned units is overall 
+  a bit lower during lower heats while higher heats have a slightly increased amount of units.
+
+- Police officers will now attempt to bust you when they first encounter you at any given heat level instead of straight up opening fire. This applies to all heat levels except 5. As a result, foot pursuits are now more common.
+
+
+2. Harder searches
+- The amount of time the police looks for you is now longer. Heat levels 1 - 3 have expanded timers while heat level 4 and 5 can only be evaded by escaping the area the cops have locked down.
+
+- The radius in which the cops look for you has been expanded. It starts at 200 metres at heat 1, increases to 400 metres at level 2 and then increases with 400 untill 1600 meters at heat level 5, which equals to about a 1 mile radius.
+
+- The amount of 6th sense cops have during searches has been reduced. Cops are now less likely to home in on you and instead will spend more time roaming around the map. 
+  This makes it easier to escape, which is countered by the previously mentioned longer searches and larger search zones.
+
+- The amount of roadblocks also has been increased a bit. Especially at heat level 5 you may occasionally see more than one roadblock at a time, so using alleyways to get around them is recommended.
+
+
+3. Changed spawning
+The type of units that show up at heat level have been entirely changed up. A quick summary is as follows:
+- Heat level 1 is pretty much the same, only regular cops with pistols.
+
+- Heat level 2 only has regular cops as well, cops will start using Px4 pistols about halfway through.
+
+- Heat level 3 starts adding kevlar cops to the mix and the shotgun gets added to the weapon that can be used. K9s start spawning at further stages of this heat level.
+  Nearing level 4 you might see cops with 416 rifles show up. The further you progress through this level, the more regular cops without kevlar vests are phased out as cops are starting to gear up.
+
+- Heat level 4 has only kevlar cops initially. As you start gaining heat SWAT units in SUVs whill start to show up and regular K9 dogs are replaced with SWAT versions with kevlar. 
+  The amount of SWAT units increases as the amount of cops decreases as your heat continues to raise.
+
+- Heat level 5 has a low amount of regular cops with most of the spawns being taken up by SWAT units and SUVS. Snipers may now also spawn in SUVs although rarely and only when on foot.
+  MRAPs will also make their appearance at this level. As you progress, regular cops become even more rare as SWAT continues to increase. Heavier variants of the sniper will get deployed after a while. 
+  
+If you continue to retaliate and your heat truely maxes out, the FBI will show up to assist the police. At this point, they will take up the majority of the spawns. 
+
+
+4. FBI
+When you get to heat level 5 and you continue to retaliate, after a while FBI units will start showing up. These come in multiple forms:
+- Most common are the regular tac units. These are basically mini-Enforcers, as they are agressive and like to assault in packs but lack the high health pools the usual Enforcer has.
+
+- Marksmen come in two forms, the regular ones that come in choppers and sometimes on foot armed with the AC-AR while the second variation uses an ACR. Difference between the two is
+  the ones with the AC-AR behave like a normal sniper where they look for the high ground and try to keep their distance, while the other variant with the ACR behaves more like regular units.
+- Enforcers used by the FBI are the strongest unit in the game, having 50 percent more health than the vanilla ones and packing a U100.
+
+- Jammers will appear and attempt to get close to you. Everything inside their jam range because unhackable, this includes any traps you set for them during foot and vehicle pursuits, so be sure to take out their jammers.
+
+- Grenadiers are similar to snipers in terms of behaviour, but will use a grenade launcher to try and get you out of cover and out in the open. While they occasionally cause some friendly fire, they can be an annoying
+  unit to deal with if the circumstances are right.
+
+
+5. Expanded weapon selection
+- The Px4 pistol has now been added to cops at medium heat levels as well as Umeni.
+- The 416 rifle now replaces the Goblin in the police their arsenal and can also be found on some members of Umeni.
+- The MP5 has been added to the SWAT and Umeni Elites their arsenal.
+- The M107 sniper will now be used by Elite SWAT marksmen.
+
+- The ACR will now be used by FBI marksmen.
+- The AC-AR will be used by FBI snipers in helicopters and occasionaly on foot.
+- The 417, M1014 and Vector .45 ACP are now used by the FBI tactical units.
+- The D50 pistol can be found as a backup weapon for FBI grenadiers as well as some regular FBI units in missions.
+- The R33 is now used by FBI Jammer.
+
+- Other weapons, such as the OCP-11, MP-9, M1 SMG and others have been added and given to the gang factions. The weapons used depend on the gang, so be sure to check them all out.
+
+
+6. Ambient tweaks
+- Female police officers have been added to spawn in ambient police patrols.
+
+- Police stations are now guarded only by regular cops, you will no longer see Elites and Enforcers patrolling around a police parking lot.
+
+- Jammers and Grenadiers now appear in a handfull of freeroam locations as well as some base game missions.
+
+- APB calls also have different responses. The first level is the same as ambient patrols aka just regular cops with pistols. 
+  The second level now has been replaced by a regular cop car but with cops outfitted with kevlar vests and carrying a shotgun and assault rifle. 
+
+- Responses to AI crimes have been tweaked to simulate a more realistic approach. Instead of SWAT instantly deploying after the first cop car
+  shows up during AI fights, instead multiple layers of response can now be differentiated. The first level usually consists of only a single cop car
+  with regular cops. The second level has one or two cop cars with cops upgrading to kevlar vests and now carrying a shotgun per patrol car. Third level
+  features multiple cop cars with cops now also using 416 rifles. Last level is now reserved for SWAT responses, including SUVs and MRAPs. 
+  This means SWAT usually doesn't pop up the second bullets start flying and simulates the fact that these type of units take time to deploy, same goes for the
+  APB calls where SWAT now only shows up as backup if the officers call for it.
+
+- 911 callers are now more frequent and can now appear further away, giving crime a larger chance of being reported to the authorities.
+
+
+5. COSMETIC CHANGES
+UMENI
+Umeni overall has been demilitarizised a bit to make them seem more like a legit security company. This includes:
+- Female Umeni guards now always wear their cap instead of most of the time.
+- Armored Umeni guards their uniform now is similar in color to the unarmored guards. 
+- Elites their gear also has been toned down a bit and is more comparable to the SWAT officers in the vanilla game.
+- Enforcers have regular tactical leggins and a regular tactical helmet now instead of the usual Enforcer gear (which is now reserved for the FBI)
+
+POLICE
+- SFPD & OPD vehicles and police stations now have their seals retextured with a new texture.
+- Regular SFPD officers have the variant with the biker boots removed; these presets have been replaced with additional head models.
+- OPD officers with kevlar vests now often wear baseball caps.
+- Police dogs don't wear kevlar, to differentiate the from the K9s deployed by SWAT units, who do wear it.
+- Female police marksmen have now been added to spawn.
+- A heavier version of the marksman based on the Elite unit type now spawns at high heat levels. They wear a tactical helmet instead of the usual cap.
+- SWAT officers now wear balestic helmets.
+- SWAT Enforcers now have their gear changed, they wear a regular helmet with black visors and regular tactical leggins. 
+
+FBI
+- FBI Jammers & Marksmen now always wear khaki combat gear to make em blend in nicely with the other tactical units.
+- FBI tactical units now wear balaclavas, black visors, an earpiece with microphone and have a pair of binoculars attached to their helmet.
+- FBI Enforcers now also wear balaclavas and have a pair of binoculars attached to their helmet.
+- FBI now have their own MRAPs. They come in a khaki color. They are the only unit not marked on the map so keep your eyes open for these.

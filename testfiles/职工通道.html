@@ -1,0 +1,234 @@
+
+<!-- saved from url=(0046)http://127.0.0.1:8000/exams/prof/addquestions/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>职工通道</title>
+    <link href="./职工通道_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./职工通道_files/main.css" rel="stylesheet">
+    <link href="./职工通道_files/dashboard.css" rel="stylesheet">
+    <link href="./职工通道_files/zh-cn.ttf" rel="stylesheet">
+</head>
+<body>
+  <style media="screen">
+    *{
+      color: #745959;
+    }
+    input[type=submit]:hover{
+            background-color: #87ff9b;
+    }
+    body {
+          font-family: "YSFont";
+          }
+    @font-face {
+        font-family: YSFont;
+        src:url("/static/font/zh-cn.ttf") format("truetype");
+                }
+  </style>
+    <nav class="navbar navbar-light" style="background-color: #87ff9b">
+  <a href="http://127.0.0.1:8000/faculty/" style="color:#745959">主页</a>
+  <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-toggle="collapse" data-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <ul class="navbar-nav px-3" style="display:flex;flex-direction:row;align-items:center">
+    <li class="nav-item text-nowrap">
+      <a class="nav-link" href="http://127.0.0.1:8000/exams/prof/addquestions/#">hello1</a>
+    </li>
+  </ul>
+</nav>
+
+    
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+
+
+  .sidebar{
+    border-radius: 0.5em;
+    position: fixed;
+    top: 5em;
+    left: -17em;
+    width: 18em;
+    height: 100%;
+    background: white;
+    transition: all .5s ease;
+  }
+
+  .sidebar header{
+    font-size: 2em;
+    color: #745959;
+    text-align: center;
+    line-height: 2em;
+    background: none;
+    user-select: none;
+  }
+
+  .sidebar ul a{
+    color: #745959;
+  }
+
+  .sidebar li{
+    display: block;
+    /* height: 100%; */
+    width: 100%;
+    line-height: 2em;
+    font-size: 1.5em;
+    color: #745959;
+    padding-left: 1.5em;
+    box-sizing: border-box;
+    border-top: 0.1em solid rgba(116, 89, 89,0.1);
+  }
+
+  ul li:hover a{
+    padding-left: 1em;
+    transition: 0.6s;
+  }
+
+  .sidebar ul a i {
+    margin-right: 10em;
+  }
+
+  #check{
+    display:none;
+  }
+
+  label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+    border-radius: 0.1em;
+  }
+
+  label #btn{
+    left: 1em;
+    top: 2.1em;
+    font-size: 2.5em;
+    color: #87ff9b;
+    padding: 0.2em;
+    border: #bdaf7b;
+    transition: all 0.5s;
+  }
+
+  label #cancel{
+    z-index: 1111;
+    left: -5.5em;
+    top: 2.1em;
+    font-size: 2.5em;
+    color: #87ff9b;
+    padding: 0.2em;
+    transition: all 0.5s ease;
+  }
+
+  #check:checked ~ .sidebar{
+    left: 0;
+  }
+
+  #check:checked ~ label #btn{
+    left: 2em;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  #check:checked ~ label #cancel{
+    left: 5.5em;
+  }
+
+  #check:checked ~ section{
+    margin-left: 20em;
+  }
+
+  section{
+    padding: 2em 5em 5em 2em;
+    transition: all 0.5s ease;
+  }
+
+</style>
+<input type="checkbox" id="check">
+<label for="check">
+  <i class="fas fa-bars" id="btn"></i>
+  <i class="fas fa-times" id="cancel"></i>
+</label>
+<div class="sidebar">
+  <header>
+    导航
+  </header>
+  <ul>
+    <ul>
+      <li><a href="http://127.0.0.1:8000/faculty/">主页</a></li>
+    </ul>
+    <li><i class="fas fa-file-alt"></i> 创建新考试</li>
+    <ul>
+      <li><a href="http://127.0.0.1:8000/exams/prof/viewexams/">新考试</a></li>
+      <li><a href="http://127.0.0.1:8000/exams/prof/addnewquestionpaper/">新题集</a></li>
+      <li><a href="http://127.0.0.1:8000/exams/prof/addquestions/">新题目</a></li>
+    </ul>
+    <li><i class="fas fa-clipboard-list"></i>  概述</li>
+    <ul>
+      <li><a href="http://127.0.0.1:8000/exams/prof/viewpreviousexams/">查看过往的考试</a></li>
+      <li><a href="http://127.0.0.1:8000/exams/prof/viewstudents/">学生</a></li>
+      <li><a href="http://127.0.0.1:8000/exams/prof/viewresults/">考试结果</a></li>
+    </ul>
+    <li><i class="fas fa-clipboard-list"></i> 动作</li>
+    <ul>
+      <form id="my_form" action="http://127.0.0.1:8000/faculty/logout/" method="POST">
+         <input type="hidden" name="csrfmiddlewaretoken" value="21pmTrSJb0zOLgdH244mjO9lDRLxyxVh7JBYcZl9j6gds51RpLiHKT4RYw6yslXw">
+        <li><a href="javascript:{}" onclick="document.getElementById(&#39;my_form&#39;).submit();">登出</a></li>
+      </form>
+    </ul>
+  </ul>
+</div>
+
+
+
+      
+    <div class="mt-5">
+    </div>
+
+<style>
+*{
+  color: #745959;
+}
+button[type=submit]:hover{
+        background: #87FF9B;
+    }
+    #id_questions{display:block;width:100%;height:calc(10em);padding:.375rem .75rem;font-size:1rem;font-weight:400;line-height:1.5;color:#745959;background-color:#fff;background-clip:padding-box;border:1px solid #745959;border-radius:.25rem;transition:border-color .15s ease-in-out,box-shadow .15s ease-in-out}
+</style>
+<div class="row">
+	<div class="col-md-2"></div>
+    <div class="col-md-6">
+        <div class="ml-5 card">
+            <form method="POST" action="http://127.0.0.1:8000/exams/prof/addquestions/">
+                <div class="container">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="21pmTrSJb0zOLgdH244mjO9lDRLxyxVh7JBYcZl9j6gds51RpLiHKT4RYw6yslXw">
+                    <p><label for="id_question">Question:</label> <input type="text" name="question" class="form-control" maxlength="100" required="" id="id_question"></p>
+<p><label for="id_optionA">OptionA:</label> <input type="text" name="optionA" class="form-control" maxlength="100" required="" id="id_optionA"></p>
+<p><label for="id_optionB">OptionB:</label> <input type="text" name="optionB" class="form-control" maxlength="100" required="" id="id_optionB"></p>
+<p><label for="id_optionC">OptionC:</label> <input type="text" name="optionC" class="form-control" maxlength="100" required="" id="id_optionC"></p>
+<p><label for="id_optionD">OptionD:</label> <input type="text" name="optionD" class="form-control" maxlength="100" required="" id="id_optionD"></p>
+<p><label for="id_answer">Answer:</label> <input type="text" name="answer" class="form-control" maxlength="200" required="" id="id_answer"></p>
+<p><label for="id_max_marks">Max marks:</label> <input type="number" name="max_marks" value="0" class="form-control" required="" id="id_max_marks"></p>
+                </div>
+                <div class="text-center">
+                <button class="btn" style="border-color:#745959; color:#745959;" type="submit">提交</button>
+                </div>
+            </form>
+        </div>
+        </div>
+</div>
+
+
+
+
+  
+    <script src="./职工通道_files/jquery-3.5.1.slim.min.js.下载" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+    <script src="./职工通道_files/bootstrap.bundle.min.js.下载"></script>
+    <script src="./职工通道_files/a076d05399.js.下载"></script>
+
+
+
+</body></html>
